@@ -11,6 +11,8 @@ var cityCmd = &cobra.Command{
 	Use:   "city",
 	Short: "Get temperature of a city",
 	Long: `This command fetches the temperature from the openWeatherMap API.`,
+	Version: "0.1.0",
+	Example: `wectl city <CITY_NAME>`,
 	Run: func(cmd *cobra.Command, args []string) {
 			var city string
 			if cityName != ""{
