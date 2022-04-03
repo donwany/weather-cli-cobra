@@ -26,7 +26,8 @@ go get -u github.com/spf13/cobra@latest
 ```shell
 sudo mv ./wectl /usr/local/bin/
 
-wectl city plano or wectl city --city plano
+$ wectl city plano 
+$ wectl city --city plano
 ```
 
 ## Docker
