@@ -16,10 +16,11 @@ go get -u github.com/spf13/cobra@latest
 
 ./wectl city plano
 
-  - Temperature at plano is 25 degrees celcius
+  Response - Temperature at plano is 25 degrees celcius
 
 ./wectl city --city plano
-  -  Temperature at plano is 25 degrees celcius
+
+  Response - Temperature at plano is 25 degrees celcius
 ```
 ### deploy
 ```shell
